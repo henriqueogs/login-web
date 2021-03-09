@@ -2,7 +2,7 @@ import axios from "axios";
 import { getToken } from "./auth";
 
 const api = axios.create({
-  baseURL: "https://login-server.vercel.app/"
+  baseURL: "https://login-henriqueogs.herokuapp.com/"
 });
 
 api.interceptors.request.use(async config => {
